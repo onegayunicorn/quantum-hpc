@@ -1,0 +1,6 @@
+{
+  "name": "Quantum-HPC Integration Stack & Simulation Suite",
+  "description": "Interactive Quantum-HPC co-compilation, SABRE router with lookahead on IBM Falcon 27Q, ORNL 7-layer stack, MQTBench benchmarks, and QF Network simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

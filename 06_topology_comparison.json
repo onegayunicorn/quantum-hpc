@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-09-26T16:39:55.308491+00:00",
+  "circuit": "Quantum Fourier Transform QFT(5)",
+  "router": "SABRE Lookahead Guided",
+  "topologies": {
+    "ibm_27q_falcon": {
+      "name": "IBM Falcon 27Q (Heavy-Hex)",
+      "swaps_inserted": 9,
+      "routed_gates": 35,
+      "avg_degree": 2.44,
+      "diameter": 11,
+      "qir_preview": "; ModuleID = 'qllvm_module'\nsource_filename = \"qllvm_circuit.qasm\"\ntarget datalayout = \"e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-f80:128-n8:16:32..."
+    },
+    "square_grid_25q": {
+      "name": "2D Square Grid (25Q, 5x5)",
+      "swaps_inserted": 9,
+      "routed_gates": 35,
+      "avg_degree": 3.2,
+      "diameter": 8,
+      "qir_preview": "; ModuleID = 'qllvm_module'\nsource_filename = \"qllvm_circuit.qasm\"\ntarget datalayout = \"e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-f80:128-n8:16:32..."
+    },
+    "all_to_all_27q": {
+      "name": "Trapped-Ion All-to-All (27Q)",
+      "swaps_inserted": 0,
+      "routed_gates": 35,
+      "avg_degree": 26.0,
+      "diameter": 1,
+      "qir_preview": "; ModuleID = 'qllvm_module'\nsource_filename = \"qllvm_circuit.qasm\"\ntarget datalayout = \"e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-f80:128-n8:16:32..."
+    }
+  }
+}

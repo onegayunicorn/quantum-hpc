@@ -1,0 +1,118 @@
+{
+  "event_type": "VERIFIED_HPC_SIMULATION",
+  "timestamp_utc": "2026-09-26T16:41:09.445502+00:00",
+  "version": "1.0",
+  "system": "Sovereign Quantum-HPC Stack",
+  "verification": {
+    "status": "VERIFIED",
+    "integrity_level": "FULL_CRYPTOGRAPHIC_SEAL",
+    "consensus_rate": 1.0,
+    "total_artifacts_sealed": 15
+  },
+  "digital_twin": {
+    "twin_id": "8c34c4e2de",
+    "previous_merkle_root": "4a48ab97a23d4567e6",
+    "new_merkle_root": "71d1bbc0107e8663af0bbbc59b3dd1011f858f8d4034fbb61a2bc099d465e628",
+    "hmac_sha256_signature": "751932810401ebe91376228727d11a07ecdced6b3853be80977d7a3585bad41f"
+  },
+  "artifacts": [
+    {
+      "name": "digest.json",
+      "sha256": "a7d9692fafa2247f5052624284472c09de6e53edaf0831eb1132cc7fefe37c73",
+      "size_bytes": 581
+    },
+    {
+      "name": "01_extracted_data.json",
+      "sha256": "9d0c8ece2f321851735a8e6a4f0459a3b7a9a4eb47d1ffeecf2807f7ca87ff2a",
+      "size_bytes": 7265
+    },
+    {
+      "name": "02_qllvm_pipeline.json",
+      "sha256": "895d3260c8338b1e095365a31b5b63fc048c3d433730f859bbc557955e48c73a",
+      "size_bytes": 2382
+    },
+    {
+      "name": "03_benchmark.json",
+      "sha256": "e8f451869e0c8eb8bf868d4e7142fad254c0bf0eb5fdec94532524fa170f3754",
+      "size_bytes": 712
+    },
+    {
+      "name": "04_hpc_qc_stack.json",
+      "sha256": "f6bdd66590a15c3b084dfdcc285814e96d79e6f567ff38687716201ff8e0664d",
+      "size_bytes": 1199
+    },
+    {
+      "name": "05_qf_network.json",
+      "sha256": "85597db9a4cff880835622309c5ea7393e4a80eca714b2686b34e3f94bbed75f",
+      "size_bytes": 440
+    },
+    {
+      "name": "06_topology_comparison.json",
+      "sha256": "83de7720ca0bbc376d1a87e4c731a48418df8005638979f419e6815f5e0b542d",
+      "size_bytes": 1239
+    },
+    {
+      "name": "noon_N1_N10_full_results.json",
+      "sha256": "2eeb91256bdb018054e0084876e930f34239272c671ef3e868f8c6552cf7e983",
+      "size_bytes": 9054
+    },
+    {
+      "name": "qllvm_sim.py",
+      "sha256": "0d5ecb62e745adb7b07707c3b2da8d8fc6f6ae48684c7c2ca1e89702d4beebc9",
+      "size_bytes": 21815
+    },
+    {
+      "name": "topology_compare.py",
+      "sha256": "40e6c08dbb598a1b56d87ffa03f3977b75dfc7a6980d974b767cdba14483db3d",
+      "size_bytes": 5572
+    },
+    {
+      "name": "noon_metrology_sim.py",
+      "sha256": "24d047b4e5e00c55ba7594478a20cf4f22e2e0cbeaa3736e99ad94d6b9c2b6de",
+      "size_bytes": 6703
+    },
+    {
+      "name": "benchmark_compare.py",
+      "sha256": "7d99ccbcbe9947fde40572166b0fd8c114031ef0e64430de26ccb65c3fa77bd3",
+      "size_bytes": 1752
+    },
+    {
+      "name": "hpc_qc_sim.py",
+      "sha256": "34c1e79ad67075f0700e4a56a702ee53acc5b77e1bbe126d95e5bfec8969d428",
+      "size_bytes": 1339
+    },
+    {
+      "name": "qf_network_sim.py",
+      "sha256": "19e0436836f0287b24f57ff74beea424f44941e3b91c6bc62b36f1dad94b9ee5",
+      "size_bytes": 632
+    },
+    {
+      "name": "sovereign_deployment.yaml",
+      "sha256": "4dc1be1b7919e8c8c89ec94d0328075294315e1700f93f1d834116b6ed34e669",
+      "size_bytes": 2028
+    }
+  ],
+  "validated_components": [
+    "QLLVM Co-Compilation Engine (4 Canonical SABRE Fixes)",
+    "QIR 1.0 Lowering (@__quantum__qis__* intrinsics)",
+    "IBM Falcon 27Q Heavy-Hex Topology (avg degree 2.44, diameter 11)",
+    "Topology Comparison Framework (Falcon 27Q, 2D Grid 25Q, Trapped-Ion)",
+    "MQTBench 25-Algorithm Sweep (-3.98% Qiskit, -1.19% Cirq, -74.96% PennyLane)",
+    "ORNL 7-Layer HPC-QC Software Stack & VQLS Solver",
+    "ACM Mini-App Motifs (M1-M6 Execution Timelines)",
+    "QF Network v0.1.12 Release & SPIN Consensus (21 Validators, 2/3 Quorum)",
+    "PolkaVM (RISC-V RV32E Gas Accounting Engine)",
+    "NOON State Metrology Cascade (N=1..10 Polish >0.95 Fidelity)",
+    "React Visualization Layer (Zero Runtime Errors)",
+    "Dola Digital Twin Execution-Trust Chain"
+  ],
+  "attestation": {
+    "canonical_sabre_fixes": 4,
+    "frontend_runtime_errors": 0,
+    "digital_twin_conflicts": 0,
+    "sync_cycles": 5,
+    "noon_cascade_polish_steps": 5000,
+    "minimum_noon_fidelity": 0.9582,
+    "heisenberg_limit_scaling_locked": true
+  }
+}

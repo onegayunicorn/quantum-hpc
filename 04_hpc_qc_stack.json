@@ -1,0 +1,54 @@
+{
+  "generated_utc": "2026-09-26T16:39:55.308491+00:00",
+  "framework": "ORNL 7-Layer Hardware-Agnostic HPC-QC Stack",
+  "layers": [
+    {
+      "layer": 1,
+      "name": "Hybrid Application",
+      "latency_us": 12.0,
+      "bandwidth_gbps": 128.0
+    },
+    {
+      "layer": 2,
+      "name": "Quantum Gateway Interface",
+      "latency_us": 18.5,
+      "bandwidth_gbps": 64.0
+    },
+    {
+      "layer": 3,
+      "name": "Quantum Platform Manager (QPM) API",
+      "latency_us": 24.0,
+      "bandwidth_gbps": 32.0
+    },
+    {
+      "layer": 4,
+      "name": "Compiler / Circuit Optimization Toolchain",
+      "latency_us": 45.0,
+      "bandwidth_gbps": 16.0
+    },
+    {
+      "layer": 5,
+      "name": "Resource Manager & Scheduler (Slurm/QCUP)",
+      "latency_us": 32.0,
+      "bandwidth_gbps": 8.0
+    },
+    {
+      "layer": 6,
+      "name": "Quantum Controller (FPGA Bridge)",
+      "latency_us": 8.5,
+      "bandwidth_gbps": 4.0
+    },
+    {
+      "layer": 7,
+      "name": "Quantum Processing Unit (QPU)",
+      "latency_us": 150.0,
+      "bandwidth_gbps": 1.0
+    }
+  ],
+  "vqls_convergence": {
+    "qubits": 4,
+    "ansatz_layers": 3,
+    "iterations": 40,
+    "final_cost": 0.034
+  }
+}

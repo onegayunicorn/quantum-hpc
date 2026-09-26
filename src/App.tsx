@@ -9,6 +9,7 @@ import { Header, ActiveTab } from "./components/Header";
 import { QllvmWorkbench } from "./components/QllvmWorkbench";
 import { QirView } from "./components/QirView";
 import { TopologyComparisonView } from "./components/TopologyComparisonView";
+import { NoonMetrologyView } from "./components/NoonMetrologyView";
 import { MqtBenchView } from "./components/MqtBenchView";
 import { HpcQcStackView } from "./components/HpcQcStackView";
 import { QfNetworkView } from "./components/QfNetworkView";
@@ -66,6 +67,7 @@ export default function App() {
         {activeTab === "compiler" && <QllvmWorkbench />}
         {activeTab === "qir" && <QirView />}
         {activeTab === "topologies" && <TopologyComparisonView />}
+        {activeTab === "noon" && <NoonMetrologyView />}
         {activeTab === "benchmarks" && <MqtBenchView />}
         {activeTab === "hpc_qc" && <HpcQcStackView />}
         {activeTab === "qf_network" && <QfNetworkView />}

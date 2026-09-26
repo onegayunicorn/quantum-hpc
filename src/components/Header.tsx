@@ -9,6 +9,7 @@ export type ActiveTab =
   | "compiler"
   | "qir"
   | "topologies"
+  | "noon"
   | "benchmarks"
   | "hpc_qc"
   | "qf_network"
@@ -34,6 +35,7 @@ export const Header: React.FC<HeaderProps> = ({
     { id: "compiler", label: "QLLVM Compiler" },
     { id: "qir", label: "QIR Preview" },
     { id: "topologies", label: "Hardware Topologies" },
+    { id: "noon", label: "NOON & Truth Ledger" },
     { id: "benchmarks", label: "MQTBench Suite" },
     { id: "hpc_qc", label: "ORNL HPC-QC Stack" },
     { id: "qf_network", label: "QF Network" },
